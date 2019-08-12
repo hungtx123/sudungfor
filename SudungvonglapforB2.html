@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập số :
+<input type ="text" id = "k">
+<button type="button" onclick="tinh();">Click</button><br><br>
+    <script>
+        function tinh() {
+            let k = document.getElementById("k").value;
+            let sum = 0;
+            for (let i = 1; i <= k; i++)
+                sum += i;
+            document.write("Tổng các phần tử từ 1 đến " + k + " là : " + sum);
+        }
+    </script>
+</body>
+</html>
